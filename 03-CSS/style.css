@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-size: 70px;
+    font-style: oblique;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    text-transform: lowercase;
+}
+h3{
+    text-transform: uppercase;
+}
+p{
+    text-indent: 40px;
+    font-size: 18pt;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
