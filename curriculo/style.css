@@ -4,16 +4,27 @@ body{
 a{
     color: black;
 }
+a:hover{
+    color: blue;
+}
 .ferramentas,h3{
     text-transform: none;
     font-style: italic;
     font-weight: bold;
     color: black;
 }
-
 h1{
     font-size: 32pt;
+    margin-left: 500px;
 }
 p,ul{
     font-size: 15pt;
+}
+ul li{
+    list-style-type:none;
+    margin-left: 550px;
+}
+.funcao{
+    margin-left: 600px;
+    margin-top: -20px;
 }
