@@ -1,30 +1,79 @@
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 80%;
+  margin: auto;
+  font-weight: 600;
 }
-a{
-    color: black;
+
+p {
+  background-color: lightgray;
+  padding: 20px 30px 10px 25px;
 }
-a:hover{
-    color: blue;
+
+h1 {
+  padding: 20px 30px 10px 25px;
+  margin: 0;
+  font-size: 32pt;
+  margin-left: 350px;
 }
-.ferramentas,h3{
-    text-transform: none;
-    font-style: italic;
-    font-weight: bold;
-    color: black;
+
+h3,
+.ferramentas {
+  text-transform: none;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
 }
-h1{
-    font-size: 32pt;
-    margin-left: 500px;
+
+ul li {
+  list-style-type: disc;
+  margin-left: 420px;
 }
-p,ul{
-    font-size: 15pt;
+
+.funcao {
+  margin-left: 480px;
+  margin-top: -10px;
 }
-ul li{
-    list-style-type:none;
-    margin-left: 550px;
+
+.destaque {
+  background-color: chartreuse;
+  font-size: 24px;
 }
-.funcao{
-    margin-left: 600px;
-    margin-top: -20px;
+
+.tamanho {
+  width: 400px;
+  height: 200px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  background-color: darkgray;
+}
+
+a:active {
+  background-color: yellow;
+}
+
+li {
+  list-style-type: square;
+}
+
+
+ol li {
+  list-style-type: upper-roman;
 }
