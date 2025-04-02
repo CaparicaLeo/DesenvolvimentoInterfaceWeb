@@ -3,6 +3,11 @@ body {
   width: 80%;
   margin: auto;
   font-weight: 600;
+  border: 3px dotted black;
+  background-image: url(assets/pngtree-asymmetract-cv-simple-white-image_591346.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 p {
@@ -49,15 +54,7 @@ a {
   color: black;
 }
 
-a:hover {
-  color: blue;
-}
-
-a:link {
-  color: red;
-}
-
-a:visited {
+a:hover, a:link, a:visited {
   color: blue;
 }
 
