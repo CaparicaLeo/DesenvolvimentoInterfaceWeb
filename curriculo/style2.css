@@ -1,0 +1,120 @@
+/* Reset básico */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #001;
+	color: #333;
+	line-height: 1.6;
+	width: 80%;
+	margin: 20px auto;
+}
+
+/* Cabeçalho */
+header {
+	background-color: #2c3e50;
+	color: white;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 30px;
+}
+
+.cabecalho {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.foto-perfil {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 3px solid #1abc9c;
+}
+
+.info-pessoal h1 {
+	font-size: 2.5rem;
+	margin-bottom: 5px;
+}
+
+.funcao {
+	font-weight: 300;
+	font-size: 1.2rem;
+}
+
+/* Contato */
+.contato {
+	margin-top: 20px;
+}
+
+.contato ul {
+	list-style: none;
+	padding: 0;
+}
+
+.contato li {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.contato a {
+	color: #1abc9c;
+	text-decoration: none;
+}
+
+.contato a:hover {
+	text-decoration: underline;
+}
+
+.linkedin-icon {
+	width: 20px;
+	height: 20px;
+}
+
+/* Main */
+main .objetivo,
+main .container {
+	background: white;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+	color: #2c3e50;
+	margin-bottom: 10px;
+}
+
+main h3 {
+	color: #34495e;
+	margin-top: 10px;
+}
+
+main h4 {
+	color: #7f8c8d;
+	margin-top: 5px;
+}
+
+.experiencias {
+	margin: 30px 0px;
+	color: #fff;
+	text-align: center;
+    height: 80%;
+}
+
+.ferramentas {
+	font-weight: bold;
+	color: #2980b9;
+}
+
+a.ferramentas:hover {
+	text-decoration: underline;
+}
