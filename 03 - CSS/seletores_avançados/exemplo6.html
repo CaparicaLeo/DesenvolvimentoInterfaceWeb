@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Pseudo classes</title>
+		<style>
+            body{
+                background-color: lightgray;
+            }
+            button{
+                background-color: gray;
+                color: white;
+                border: none;
+                padding: 1em;
+                margin-bottom: .5em;
+            }
+            button:disabled{
+                opacity: .5;
+            }
+            p:empyt::before{
+                content: 'paragrafo';
+            }
+        </style>
+	</head>
+	<body>
+		<button>Vai</button>
+		<button disabled>Vai disabled</button>
+		<p>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+			labore!
+		</p>
+		<p></p>
+		<p>pós espaço</p>
+		<p></p>
+		<p>pós sem espaço</p>
+	</body>
+</html>
