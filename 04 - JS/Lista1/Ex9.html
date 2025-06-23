@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>Exercício 9</h1>
+		<p id="array"></p>
+		<p id="resultado"></p>
+		<script>
+			let array = [];
+			for (let i = 0; i < 10; i++) {
+				array.push(Math.floor(Math.random() * 100) + 1);
+			}
+
+			let maior = 0;
+			for (valor of array) {
+				if (maior < valor) {
+					maior = valor;
+				}
+			}
+
+			document.getElementById("array").innerHTML = `Array: ${array}`;
+			document.getElementById(
+				"resultado"
+			).innerHTML = `Maior valor: ${maior}`;
+		</script>
+	</body>
+</html>

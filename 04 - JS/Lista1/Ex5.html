@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 5</title>
+</head>
+<body>
+    <h1>Exercício 5</h1>
+    <p id="resultado"></p>
+    <script>
+        let peso = parseFloat(prompt("Diga seu peso"))
+        let altura = parseFloat(prompt("Digita sua altura"));
+
+        altura = altura ** 2
+        let imc = peso/altura;
+
+        document.getElementById("resultado").innerHTML = `Seu IMC é ${imc}`
+    </script>
+
+</body>
+</html>
